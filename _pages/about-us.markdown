@@ -5,13 +5,14 @@ permalink: /about-us/
 
 ---
 
-# The people peoples IT people
+## The people peoples IT people
 
 At VoltPopulous our mission is people. From the people who create the solutions to the people that use them, our goal is to ensure that both
 communities have what they need to be successful.
 
-"Our job is to make life easier for people who do extraordinary things"
-	- warwalrux
+"We're in the business of making life easy for people who do phenomenal stuff"	
+
+-warwalrux
 
 
 ## Meet the Team
