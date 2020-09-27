@@ -5,3 +5,6 @@ main:
     url: /contact-info/
   - title: "Services"
     url: /services/
+  - title: "News"
+    url: /news/
+

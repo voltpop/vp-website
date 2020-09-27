@@ -33,11 +33,17 @@ github_username:  dfoulks1
 # Build settings
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: dark
-plugins:
-  - jekyll-feed
+#plugins:
+        #  - jekyll-feed
+
+collections:
+  news:
+    output: true
+    permalink: /:collection/:path/
 
 include:
   - _pages
+  - _posts
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

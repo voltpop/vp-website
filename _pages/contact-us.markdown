@@ -1,5 +1,5 @@
 ---
-title: Contact Information
+title: Contact us today
 permalink: /contact-info/
 layout: single
 

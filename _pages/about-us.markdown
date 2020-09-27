@@ -7,9 +7,10 @@ permalink: /about-us/
 
 ## People Power
 
-At VoltPopulous our mission is people. From the people who create solutions to the people that use them, our goal is to ensure that everybody has what they need to do their thing.
+At VoltPopulous, our mission is people. From the people who create solutions to the people that use them, our goal is to ensure that everybody has what they need to do their thing.
 
-*We're in the business of making life easy for people who do phenomenal stuff - Drew Foulks*
+"*I'm in the business of making life easy for people who do phenomenal stuff.*"<br>
+&nbsp; &nbsp; &nbsp; &nbsp; - Drew Foulks
 
 ## Our Team
 
