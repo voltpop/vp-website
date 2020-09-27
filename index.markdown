@@ -12,10 +12,9 @@ header:
   overlay_image: /assets/images/boltfist3.jpg
 
 ---
+
 VoltPopulous Consulting was founded to help empower small businesses and local
 organizations to build and maintain an infrastructure that suits their needs as 
 well as the needs of their users.
 
-We strive to support both our customers and Open Source communities by
-leveraging our knowledge and experience in Open Source solutions.
-
+We specialize in Open Source technologies which means that costs stay low without sacrificing any functionality.
