@@ -4,7 +4,6 @@ permalink: /contact-info/
 layout: single
 
 ---
-## Drew "warwalrux" Foulks
-Phone:	615/697-9247
-
-Email:	voltpopulousconsulting@gmail.com
+## Drew Foulks
+Phone:	<a href="tel:6156979247">615/697-9247</a><br>
+Email:	<a href="mailto:voltpopulousconsulting@gmail.com">voltpopulousconsulting@gmail.com</a>
