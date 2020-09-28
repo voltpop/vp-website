@@ -1,12 +1,12 @@
 main:
   - title: "About Us"
     url: /about-us/
-  - title: "Contact"
-    url: /contact-info/
   - title: "Services"
     url: /services/
-  - title: "News"
-    url: /news/
   - title: "Rates"
     url: /rates/
+  - title: "Contact"
+    url: /contact-info/
+  - title: "News"
+    url: /news/
 
