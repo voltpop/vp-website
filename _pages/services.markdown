@@ -35,6 +35,6 @@ We are there to support you through the technological journey that your business
 * Setting up your parents wifi (actually, we can totally do this)
 * Fixing the printer
 
-## More Information
-* [rates](/rates/)
+
+[rates and pricing information](/rates/)
 
