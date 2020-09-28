@@ -7,4 +7,6 @@ main:
     url: /services/
   - title: "News"
     url: /news/
+  - title: "Rates"
+    url: /rates/
 

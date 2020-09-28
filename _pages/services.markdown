@@ -1,6 +1,7 @@
 ---
 layout: single
 permalink: /services/
+
 ---
 
 ## Knowledge and Experience
@@ -22,7 +23,6 @@ Volt Populous roots for the underdog; specializing in Open Source technologies m
 We are there to support you through the technological journey that your business will undertake. 
 
 #### Things we can help with:
----
 * Assisting with the initial assessment of your and your customers needs.
 * Providing strategies on how to meet those needs.
 * Offering insight and knowledge when it comes to solution design and implementation.
@@ -31,7 +31,10 @@ We are there to support you through the technological journey that your business
 * Providing ongiong support (just in case you need us).
 
 #### Things we cannot help with:
----
 * Fixing the printer
 * Setting up your parents wifi (actually, we can totally do this)
 * Fixing the printer
+
+## More Information
+* [rates](/rates/)
+
