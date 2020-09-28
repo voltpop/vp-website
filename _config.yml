@@ -32,7 +32,8 @@ github_username:  dfoulks1
 
 # Build settings
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: dark
+minimal_mistakes_skin: air
+#minimal_mistakes_skin: dark
 #plugins:
         #  - jekyll-feed
 
