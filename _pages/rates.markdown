@@ -23,4 +23,6 @@ Here at VoltPopulous, we want to help you succeed! Customers requiring 5 or more
 
 Invoices are generated and sent at the end of calendar each month, to be paid within 30 days.
 
+### Discounts
+
 We offer a 10% discount for invoices paid within 15 days
