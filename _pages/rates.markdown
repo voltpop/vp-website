@@ -22,4 +22,4 @@ Invoices are generated and sent at the end of calendar each month, to be paid wi
 
 ### Discounts
 
-We offer a 10% discount for invoices paid within 15 days
+We offer a 10% discount for invoices paid within 10 days
