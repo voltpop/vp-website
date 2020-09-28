@@ -5,15 +5,12 @@ permalink: /rates/
 
 # Rates and pricing
 
+Our billing model is time based. We offer a no-commitment hourly rate, as well as a flat contract rate.
+
 | Service | Price |
 |---------|-------|
 | Hourly Consulting | $75.00 |
 | Monthly Contract | starting at $250.00 |
-
-
-## Pricing models
-
-Our billing model is time based. We offer a no-commitment hourly rate, as well as a flat contract rate.
 
 ## We appreciate our customers
 
