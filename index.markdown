@@ -8,7 +8,6 @@ classes:
   - dirt-theme
 title: " "
 header:
-  logo: /assets/images/voltpop_logo.jpg
   overlay_color: #808
   overlay_image: /assets/images/boltfist3.jpg
 
