@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: VoltPopulous Consulting
-logo: /assets/images/voltpop_logo-88x88.jpg
+logo: /assets/images/vp_logo_clear-88x88.png
 email: voltpopulousconsulting@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   VoltPopulous Consulting was founded to help empower small businesses and local
@@ -29,12 +29,11 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: VoltPop
-github_username:  dfoulks1
+github_username:  dfoulks
 
 # Build settings
 theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: air
-#minimal_mistakes_skin: dark
 #plugins:
         #  - jekyll-feed
 
