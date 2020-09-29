@@ -14,14 +14,6 @@ Since then, the amount of knowledge has grown so much that it is now impossible 
 ---
 We put our industry experience, knowledge, and skills to work for you. It's our mission to help you get the most out of your tech. 
 
-### Seizing the potential
----
-Volt Populous roots for the underdog; specializing in Open Source technologies means we can help you keep your tech costs low without sacrificing functionality.
-
-### How we help
----
-We are there to support you through the technological journey that your business will undertake. 
-
 #### Things we can help with:
 * Assisting with the initial assessment of your and your customers needs.
 * Providing strategies on how to meet those needs.
