@@ -6,11 +6,9 @@ permalink: /about-us/
 ---
 
 ## Seizing the potential
----
 Volt Populous specializes in Open Source technologies, this means we can help you keep your tech costs low without sacrificing functionality.
 
 ## People Power
----
 At VoltPopulous, our mission is people. From the people who create solutions to the people that use them, our goal is to ensure that everybody has what they need to do their thing.
 
 "*I'm in the business of making life easy for people who do phenomenal stuff.*"<br>
