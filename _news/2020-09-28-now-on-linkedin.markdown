@@ -6,7 +6,7 @@ title: Now on LinkedIn!
 
 ---
 
-## We're Official
+## We officially exist!
 
 Now that we have a LinkedIn and a cool looking (and informative) website, our internet presence means that we officially exist.
 
