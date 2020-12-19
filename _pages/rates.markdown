@@ -15,7 +15,7 @@ Our billing model is time based. We offer a no-commitment hourly rate, as well a
 
 ## We appreciate our customers
 
-Here at VoltPopulous, we want to help you succeed! Customers requiring 5 or more hours of work per month, should contact us regarding a flat rate contract.
+Here at VoltPopulous, we want to help you succeed! Customers requiring 5 or more hours of work per month on a recurring basis, should contact us regarding a flat rate contract.
 
 ## Billing
 
