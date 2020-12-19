@@ -11,7 +11,7 @@ Our billing model is time based. We offer a no-commitment hourly rate, as well a
 | Service | Price |
 |---------|-------|
 | Hourly Consulting | $75.00 |
-| Monthly Contract | starting at $300.00 |
+| Monthly Contract | starting at $325.00 |
 
 ## We appreciate our customers
 
