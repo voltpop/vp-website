@@ -25,7 +25,7 @@ We put our industry experience, knowledge, and skills to work for you. It's our 
 
 #### Things we don't do:
 * Fixing the printer
-* Setting up your parents wifi (actually, we can totally do this)
+* Setting up your wireless network (actually, we totally do this!)
 * Fixing the printer
 
 
