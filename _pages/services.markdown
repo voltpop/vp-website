@@ -15,12 +15,10 @@ Since then, the amount of knowledge has grown so much that it is now impossible 
 We put our industry experience, knowledge, and skills to work for you. It's our mission to help you get the most out of your tech. 
 
 #### Things we do:
-* Aid in the assessment of your business's and your customers' needs.
-* Help to develop strategies on how to meet those needs.
-* Identify bottlenecks in your business's flow
-* Offer insight and knowledge to solution design and implementation.
-* Identify ways to facilitate workflow, using our industry experience
-* Provide you and your company with the tools and knowledge needed to keep things running smoothly.
+* Implement solutions that make business easier for you and your customers
+* Think of ways to help you do you business better
+* Use our industry experience to help you navigate all of your tech options.
+* Teach you the things you need to keep your tech running smoothly.
 * Provide ongoing support (just in case you need us).
 
 #### Things we don't do:
