@@ -6,7 +6,7 @@ permalink: /about-us/
 ---
 
 ## Seizing the potential
-Volt Populous specializes in wide variety of technologies. Our goal is to use creative and appropriate solutions to help you get things done.
+Volt Populous specializes in a wide variety of technologies. Our goal is to use creative and appropriate solutions to help you get things done.
 
 ## People Power
 At VoltPopulous, our mission is people: From the people who create solutions to the people that use them, our goal is to ensure that everybody has what they need to do their thing.
