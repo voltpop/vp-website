@@ -19,7 +19,10 @@ Here at VoltPopulous, we want to help you succeed! Customers requiring 5 or more
 
 ## Billing
 
-Invoices are generated and sent at the end of calendar each month, to be paid within 30 days.
+Ad hoc invoices are generated and sent by email and are to be paid within 30 days.
+
+Contract invoices are generated and sent by email as specified in the agreement, to be paid within 30 days.
+
 
 ### Discounts
 
