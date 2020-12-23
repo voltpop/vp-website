@@ -23,7 +23,6 @@ Ad hoc invoices are generated and sent by email and are to be paid within 30 day
 
 Contract invoices are generated and sent by email as specified in the agreement, to be paid within 30 days.
 
-
 ### Discounts
 
 We offer a 10% discount for invoices paid within 10 days
