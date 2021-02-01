@@ -9,4 +9,6 @@ main:
     url: /contact-info/
   - title: "News"
     url: /news/
+  - title: "Posts"
+    url: /posts/
 

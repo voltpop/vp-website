@@ -41,6 +41,9 @@ collections:
   news:
     output: true
     permalink: /:collection/:path/
+  Posts:
+    output: true
+    permalink: /:collection/:path/
 
 include:
   - _pages
