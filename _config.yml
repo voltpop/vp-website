@@ -41,7 +41,7 @@ collections:
   news:
     output: true
     permalink: /:collection/:path/
-  Posts:
+  posts:
     output: true
     permalink: /:collection/:path/
 
