@@ -10,6 +10,7 @@ Changes can be made through the GitHub website! no need to be a tech junkie here
 
 # Deploying changes
 1. Verify your changes in [staging](https://warwalrux.github.io/voltpopulous_site/)
+1. Create a Pull Request of your changes in 
 1. 
 # Technical Bits
 ## Site creation
