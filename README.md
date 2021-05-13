@@ -9,7 +9,7 @@ Changes can be made through the GitHub website! no need to be a tech junkie here
 1. Commit your changes with a helpful note
 
 # Deploying changes
-1. Verify your changes in [https://warwalrux.github.io/voltpopulous_site/](staging)
+1. Verify your changes in [staging](https://warwalrux.github.io/voltpopulous_site/)
 1. 
 # Technical Bits
 ## Site creation
