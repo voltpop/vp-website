@@ -5,13 +5,19 @@ leveraging gh_pages as a staging branch and master(or main) as the production br
 # Making Changes
 Changes can be made through the GitHub website! no need to be a tech junkie here!
 1. Log in with a GitHub account
+1. Find the file you want to edit
+1. Open editing for the file by clicking the pencil in the top left corner
 1. Start making your changes using markdown!
 1. Commit your changes with a helpful note
 
 # Deploying changes
 1. Verify your changes in [staging](https://warwalrux.github.io/voltpopulous_site/)
-1. Create a Pull Request of your changes in 
-1. 
+2. Select Pull Requests
+3. Open a New Pull Request with the green button on the left
+4. Change the `base:` dropdown to `master`
+  * Changes should now appear below
+5.   
+
 # Technical Bits
 ## Site creation
 1. Create the GitHub repository
