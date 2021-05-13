@@ -14,11 +14,11 @@ Changes can be made through the GitHub website! no need to be a tech junkie here
 # Deploying changes
 1. Verify your changes in [staging](https://warwalrux.github.io/voltpopulous_site/)
 2. Once committed you should be returned to the front page (the one that shows this doc!)
-3. There should be a banner notifying you that gh_pages has had changes pushed,
-   and that you can open a Pull Request for the changes. Do this now.
-4. Once you're on the PR page, it should say that code can be merged safely.
-5. merge it!
-6. check out the changes on [production](https://voltpop.com)
+3. Just below the branch dropdown and green `code` button, you'll see that the branch
+   is ahead of `master`, from here select `pull request`.
+5. Once you're on the PR page, it should say that code can be merged safely.
+6. merge it!
+7. check out the changes on [production](https://voltpop.com)
 
 # Technical Bits
 ## Site creation
