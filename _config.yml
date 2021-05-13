@@ -32,10 +32,11 @@ twitter_username: VoltPop
 github_username:  dfoulks
 
 # Build settings
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 minimal_mistakes_skin: air
-#plugins:
-        #  - jekyll-feed
+plugins:
+  - jekyll-include-cache
+  #- jekyll-feed
 
 collections:
   news:
