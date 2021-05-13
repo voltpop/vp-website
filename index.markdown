@@ -5,7 +5,6 @@
 layout: splash
 classes:
   - landing
-  - dirt-theme
 title: " "
 header:
   overlay_color: #808
