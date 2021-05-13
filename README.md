@@ -16,7 +16,8 @@ Changes can be made through the GitHub website! no need to be a tech junkie here
 3. Open a New Pull Request with the green button on the left
 4. Change the `base:` dropdown to `master`
   * Changes should now appear below
-5.   
+
+testing new process with github protection on master
 
 # Technical Bits
 ## Site creation
