@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: VoltPopulous Consulting
+title: VoltPopulous, Power to the People
 logo: /assets/images/vp_logo_clear-88x88.png
-email: voltpopulousconsulting@gmail.com
+email: dfoulks@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  VoltPopulous Consulting was founded to help empower small businesses and local
-  organizations build an infrastructure that suits their needs as well as the needs of 
-  their users. We strive to support both our customers and Open Source communities by
-  leveraging our knowledge and experience in Open Source solutions.
+#  VoltPopulous Consulting was founded to help empower small businesses and local
+#  organizations build an infrastructure that suits their needs as well as the needs of 
+#  their users. We strive to support both our customers and Open Source communities by
+#  leveraging our knowledge and experience in Open Source solutions.
   #baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: VoltPop
@@ -40,7 +40,7 @@ plugins:
   #- jekyll-feed
 
 collections:
-  news:
+  blogs:
     output: true
     permalink: /:collection/:path/
 

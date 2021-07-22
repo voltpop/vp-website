@@ -1,11 +1,5 @@
 main:
-  - title: "About Us"
-    url: /about-us/
-  - title: "Services"
-    url: /services/
-  - title: "Rates"
-    url: /rates/
-  - title: "Contact"
-    url: /contact-info/
-  - title: "News"
-    url: /news/
+  - title: "About"
+    url: /about/
+  - title: "Thoughts"
+    url: /blogs/
