@@ -46,7 +46,6 @@ collections:
 
 include:
   - _pages
-  - _blogs
 
 
 # Exclude from processing.
