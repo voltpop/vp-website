@@ -12,7 +12,7 @@ As a (primarily) Ubuntu user, one thing I can safely say about my time working w
 
 so I decided to be the change I wished to see in the world and wrote this kludgy little ditty:
 
-<center><big><a href=https://github.com/warwalrux/dpkg-history/archive/refs/heads/main.zip>dpkg-history!</a></big></center>
+<center><big><a href="https://github.com/warwalrux/dpkg-history/archive/refs/heads/main.zip">dpkg-history!</a></big></center>
 
 dpkg-history parses the dpkg.log file to give you _some_ yum history like functionality.
 
