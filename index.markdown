@@ -11,6 +11,6 @@ header:
   overlay_image: /assets/images/boltfist3.jpg
 
 ---
-
-<center><font size="+3">Carpe Fulgur</font></center>
+# Sieze the Lightning!
+<center><font size="+3">Carpe Fulmen</font></center>
 
