@@ -10,7 +10,8 @@ header:
   overlay_color: #808
   overlay_image: /assets/images/boltfist3.jpg
 
----
+
 # Sieze the Lightning!
-<center><font size="+3">Carpe Fulmen</font></center>
+---
+<center><font size="+3"><b>Carpe Fulmen</b></font></center>
 
