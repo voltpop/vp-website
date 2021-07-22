@@ -29,5 +29,13 @@ Open config.yml and set the following:
 
 ### Usage
 
+#### Configuring a keyring config:
 
-`usage example goes here`
+In the keyrings directory: create a .json file named for your keyring. 
+
+```
+---
+keys:
+  "dfoulks@apache.org": '6547814F1305619989803CA8C70B04130E01135B'
+```
+
