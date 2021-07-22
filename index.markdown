@@ -12,5 +12,5 @@ header:
 
 ---
 
-<!-- <center><a href="/contact-info/" class="btn btn--primary btn--large"><font size="+3">Seize your potential today</font></a></center> -->
+<center><font size="+3">Carpe Fulgur</font></center>
 
