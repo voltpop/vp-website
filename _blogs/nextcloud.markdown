@@ -37,7 +37,14 @@ It didn't take long to set up and required very little actual configuration.
 
 #### Deployment and Prerequisites
 
-I deployed an Ubuntu 20.04 AWS instance (t2.medium in this case) and did the following:
+I Hate Waiting: first thing I do is submit all of the required DNS records:
+  * office.domain.com
+  * nextcloud.domain.com
+
+That way by the time everything else is up and ready DNS has propagated and I can SSH right
+in with the friendly DNS name instead of the AWS butchery, because that's how I roll.
+
+Then I deployed an Ubuntu 20.04 AWS instance (t2.medium in this case) and did the following:
 
 a) installed some pre-requisite packages:
 
