@@ -6,7 +6,7 @@ title: Nextcloud
 
 ---
 
-# We don't need google where we're going...
+### We don't need google where we're going...
 
 I had some downtime this weekend so I decided to set up a NextCloud instance for the fam.
 
@@ -14,9 +14,7 @@ I used to run an OwnCloud instance back in the day, but that was quite a while a
 and I haven't even tried since. Although If you know anything about me, you probably
 know that my wife is an author.
 
-{:toc}
-
-## The Reason:
+### The Reason:
 I've spent several years trying to figure out the _best_ way to solve a very simple
 problem:
 
@@ -29,7 +27,7 @@ This worked very well for quite some time, however this solution is fairly techn
 relies on the use of specific tools in order to be fully effective (don't use .odt files
 more or less).
 
-## The Approach
+### The Approach
 
 After I spent about an hour looking up good ways to deploy everything I want to deploy on
 this particular server. I settled on a composed docker application stack to serve all of
@@ -37,9 +35,10 @@ the nextcloud components necessary.
 
 It didn't take long to set up and required very little actual configuration.
 
-### Deployment and Prerequisites
+#### Deployment and Prerequisites
 
 I deployed an Ubuntu 20.04 AWS instance (t2.medium in this case) and did the following:
+
 a) installed some pre-requisite packages:
 
   * apt-transport-https
@@ -61,13 +60,17 @@ curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compo
 chmod +x /usr/local/bin/docker-compose
 ```
 
-### Install and Configure apache2
+#### Install and Configure apache2
+
+```
 apt install apache2
 a2enmod ssl proxy proxy_http proxy_wstunnel rewrite headers
 systemctl restart apache2
 echo "Protocols h2 http/1.1" >> /etc/apache2/apache2.conf
+```
 
-#### /etc/apache2/sites-available/010.nextcloud.conf
+##### Create /etc/apache2/sites-available/010.nextcloud.conf
+
 ```
 <VirtualHost *:80>
   ServerName nextcloud.domain.com
@@ -98,7 +101,7 @@ echo "Protocols h2 http/1.1" >> /etc/apache2/apache2.conf
 </VirtualHost>
 ```
 
-#### /etc/apache2/sites-available/011.office.conf
+##### Create /etc/apache2/sites-available/011.office.conf
 ```
 echo "<VirtualHost *:80>
   ServerName office.domain.com
@@ -148,7 +151,7 @@ echo "<VirtualHost *:80>
 </VirtualHost>
 ```
 
-#### /etc/apache2/sites-available/999-catchall.conf
+##### Create /etc/apache2/sites-available/999-catchall.conf
 ```
 <VirtualHost *:80>
   RedirectMatch permanent ^/(.*)$ https://www.bing.com
@@ -166,7 +169,7 @@ echo "<VirtualHost *:80>
 </VirtualHost>
 ```
 
-Enable the appropriate sites
+#### Enable the appropriate sites
 
 ```
 a2dissite 000-default.conf
@@ -356,7 +359,7 @@ from the directory in which `docker-compose.yml` *_AND_* `.env` can be found
 from the directory in which `docker-compose.yml` *_AND_* `.env` can be found
 ```docker-compose down```
 
-## Some Thoughts as we wrap up
+### Some Thoughts as we wrap up
 
 Congratulations on getting this far! 
 This was my third try at setting up NextCloud. The first time I tried installing it using
@@ -367,7 +370,7 @@ My second try was using the php zipfile in /var/www and using apache to broker e
 though this was the best way to set things up and secure them (running in AWS as I am) I don't have to
 add all of the ports to my security profile which greatly streamlines the setup of this instance.
 
-### Back to work
+#### Back to work
 
 Moving right along: navigate to https://nextcloud.domain.com/nextcloud in a browser and you should be
 presented with a prompt to "create an admin user"
@@ -378,7 +381,7 @@ for this you should select `mariadb` and enter the password mysql_password confi
 
 once you've done that you should simply be able to log in with the user you _just_ created.
 
-### F!@#$@& COLLABORA
+#### F!@#$@& COLLABORA
 
 All this talk about collabora and it still doesn't work?! Don't fret, the UI _is_ cool af and if you're
 anything like me, the shiny caught your attention and you tried to go play with all the pretty features.
@@ -391,4 +394,5 @@ Under the you icon in the top right corner you should see apps
 
 Under office tools in the menu on the left, you should find the collabora plugin tile. Select it to enable it
 
-and now you're done, go you!
+
+now you're done, go you!
