@@ -262,6 +262,7 @@ services:
   mariadb:
     image: mariadb
     container_name: nextcloud-mariadb
+    command: --innodb_read_only_compressed=OFF
     restart: unless-stopped
     volumes:
       - ${NEXTCLOUD_ROOT}/mariadb:/var/lib/mysql
@@ -327,6 +328,13 @@ my toe on that later when I set up jitsi using the _exact same method_.
 
 From here we should be about ready to start up the docker stack.
 
+Also Please Note:
+
+the `command` directive on the mariadb service container is absolutely essential, if
+you forget it you'll whang your noggin on this:
+
+```General Error: 4047 InnoDB refuses to write tables with ROW_FORMAT=COMPRESSED or KEY_BLOCK_SIZE```
+
 ### A Note about using docker-compose
 
 When running docker-composed apps it's important to have a solid grasp of the basics
@@ -348,5 +356,39 @@ from the directory in which `docker-compose.yml` *_AND_* `.env` can be found
 from the directory in which `docker-compose.yml` *_AND_* `.env` can be found
 ```docker-compose down```
 
+## Some Thoughts as we wrap up
 
+Congratulations on getting this far! 
+This was my third try at setting up NextCloud. The first time I tried installing it using
+the snap only to realize that in order to set up collabora I'd have to deploy a docker instance
+anyway because that's just how collabora works. 
 
+My second try was using the php zipfile in /var/www and using apache to broker everything. In the end
+though this was the best way to set things up and secure them (running in AWS as I am) I don't have to
+add all of the ports to my security profile which greatly streamlines the setup of this instance.
+
+### Back to work
+
+Moving right along: navigate to https://nextcloud.domain.com/nextcloud in a browser and you should be
+presented with a prompt to "create an admin user"
+
+once you've entered a username and password you'll be prompted to configure the database connection.
+
+for this you should select `mariadb` and enter the password mysql_password configured in the .env file.
+
+once you've done that you should simply be able to log in with the user you _just_ created.
+
+### F!@#$@& COLLABORA
+
+All this talk about collabora and it still doesn't work?! Don't fret, the UI _is_ cool af and if you're
+anything like me, the shiny caught your attention and you tried to go play with all the pretty features.
+Take heed traveler: before you go editing .odt files in the browser you have to enable the collabora plugin,
+otherwise you're going to stub your toe on the office suite.
+
+Under the you icon in the top right corner you should see apps
+
+# screenshot here
+
+Under office tools in the menu on the left, you should find the collabora plugin tile. Select it to enable it
+
+and now you're done, go you!
