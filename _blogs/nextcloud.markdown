@@ -2,7 +2,7 @@
 layout: single
 permalink: /blogs/nextcloud/
 collection: blogs
-title: NextCloud
+title: Nextcloud
 
 ---
 
