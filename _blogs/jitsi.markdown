@@ -23,7 +23,7 @@ anyways, back to deploying jitsi:
 ### The Server:
 
 I'm using an AWS instance that I've got other docker applications running on. For the purposes of jitsi I'll note 
-that this is a t2.medium instance running Ubuntu 20.04 and that I've opened ports 8080, 4443, 10000, and 8443 in
+that this is a t2.medium instance running Ubuntu 20.04 and that I've opened ports 80, 443, 10000, and 4443 in
 the security group. Port 443 will catch all of the virtualhosts, but 8080 needs to be open so that the docker network
 can bind to it, and redirect it's own traffics, port 10000 if for webRTC (Real Time Communication) magicks...
 
