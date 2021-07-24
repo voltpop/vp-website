@@ -14,4 +14,3 @@ header:
 # Sieze the Lightning!
 ---
 <center><font size="+3"><b>Carpe Fulmen</b></font></center>
-

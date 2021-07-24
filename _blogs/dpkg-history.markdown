@@ -2,15 +2,15 @@
 layout: single
 permalink: /blogs/dpkg-history/
 collection: blogs
-title: DPKG History
+title: dpkg history
 
 ---
 
-## What I like about YUM
+## Be the change you wish to see in the world
 
 As a (primarily) Ubuntu user, one thing I can safely say about my time working with RHEL is this: I miss `yum history`...
 
-so I decided to be the change I wished to see in the world and wrote this kludgy little ditty:
+so I decided to be write this kludgy little ditty:
 
 <center><big><a href="https://github.com/warwalrux/dpkg-history/archive/refs/heads/main.zip">dpkg-history!</a></big></center>
 

@@ -1,7 +1,7 @@
 ---
 layout: collection
 permalink: "/blogs/"
-title: "Things"
+title: "Headaches with Pictures"
 collection: blogs
 entries_layout: list
 classes: wide

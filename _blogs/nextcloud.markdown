@@ -8,36 +8,50 @@ title: Nextcloud
 
 ### We don't need google where we're going...
 
-I had some downtime this weekend so I decided to set up a NextCloud instance for the fam.
+I had some downtime recently, and with school coming up, I decided to install and 
+configure a NextCloud instance for the family to use. There are a lot of great things
+about nextcloud not the least of which is the ability to backup images from your phone.
+Now, I used to run an OwnCloud instance back in the day on a dark and mysterious 
+"tower-under-the-desk" kind of server but that was quite a while ago and it never caught
+on like I hoped it would.
 
-I used to run an OwnCloud instance back in the day, but that was quite a while ago,
-and I haven't even tried since. Although If you know anything about me, you probably
-know that my wife is an author.
+Increasingly lately, the family has been asking me for new and inventive ways to do things
+on the internet. From moving pictures quickly between devices, to keeping backups from their
+new fancy-schmancy chromebooks I think _now_ is the perfect time to brush off the old home
+administrator hat.
 
 ### The Reason:
-I've spent several years trying to figure out the _best_ way to solve a very simple
-problem:
 
-how do I keep files backed up, centeral, in sync across devices, and safe from prying eyes
+I've spent several years trying to figure out the _best_ way to solve a few very simple
+problems. though when they were originally posed, I had different contstraints.
 
-the original answer:
-	subversion
+Among the contraints I had were: how do I keep files:
+  * backed up
+  * centeral
+  * in sync across devices
+  * safe from prying eyes
+
+Originally there were three contexts for these problems: pictures, movies, and documents.
+
+pictures needed to be easily shared, movies accessible with DLNA and documents safe and offline.
+
+the original answer was a hodgepodge of services: Samba with miniDLNA, Subversion, et al.
 	
-This worked very well for quite some time, however this solution is fairly technical and
-relies on the use of specific tools in order to be fully effective (don't use .odt files
-more or less).
+I had a microcosm of services that worked very well for quite some time, however this solution is 
+fairly technical and relies on the use of specific tools in order to be fully effective. I'd categorize
+that whole set up as being pretty far outside of the realm of the average person.
 
 ### The Approach
 
 After I spent about an hour looking up good ways to deploy everything I want to deploy on
-this particular server. I settled on a composed docker application stack to serve all of
+this particular server and I settled on a composed docker application stack to serve all of
 the nextcloud components necessary.
 
 It didn't take long to set up and required very little actual configuration.
 
 #### Deployment and Prerequisites
 
-I Hate Waiting: first thing I do is submit all of the required DNS records:
+The first thing I do is submit all of the required DNS records:
   * office.domain.com
   * nextcloud.domain.com
 
