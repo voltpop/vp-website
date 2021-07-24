@@ -3,6 +3,7 @@ layout: single
 permalink: /blogs/nextcloud/
 collection: blogs
 title: Nextcloud
+date: 2021-07-17
 
 ---
 

@@ -3,6 +3,7 @@ layout: single
 permalink: /blogs/jitsi/
 collection: blogs
 title: Jitsi
+date: 2021-07-24
 
 ---
 
