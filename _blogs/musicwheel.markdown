@@ -20,17 +20,22 @@ To create this handy dandy little musical tool you will need:
   
 ### Creating your 
 
-1) Download the [music slide rule template](/assets/images/MusicSlideRule.pdf)
-2) Glue the image to card stock
-3) Cut out each of the circles
-4) Punch the holes out of the top disk
-5) Punch through the middle of both disks and join them with a split pin.
+  1. Download the [music slide rule template](/assets/images/MusicSlideRule.pdf)
+  1. Glue the image to card stock
+  1. Cut out each of the circles
+  1. Punch the holes out of the top disk
+  1. Punch through the middle of both disks and join them with a split pin.
 
 ## In practice...
 
 The music wheel is marked such that the blue arrow points to the key shown and is synonymous with 'I/i' in scale degrees.
+In case you are not familiar with roman numeral notation: 
 
-I personally find the chord wheel useful when I need to transpose a chord progression to suit a vocalist.
+Major chords are represented by uppercase roman numerals. To read chord progressions starting with or containing an 'I' read the outer circle.
+Minor chords are represented by lower case roman numerals. To read chord progressions starting with or containing an 'i' read the inner circle.
+
+
+Listed below are some common chord progressions. I personally find the chord wheel useful when I need to transpose a chord progression to suit a vocalist.
 
 ### Common Chord progressions
 
