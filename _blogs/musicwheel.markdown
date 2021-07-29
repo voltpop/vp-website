@@ -18,7 +18,7 @@ To create this handy dandy little musical tool you will need:
   * scissors
   * printer
   
-### Creating your 
+### Creating your wheel 
 
   1. Download the [music slide rule template](/assets/images/MusicSlideRule.pdf)
   1. Glue the image to card stock
@@ -26,18 +26,25 @@ To create this handy dandy little musical tool you will need:
   1. Punch the holes out of the top disk
   1. Punch through the middle of both disks and join them with a split pin.
 
+## In theory...
+
+As per [Wikipedia](https://en.wikipedia.org/wiki/Roman_numeral_analysis):
+In music theory, Roman numeral analysis is a type of musical analysis in which chords are represented by Roman numerals (I, II, III, IV, …). In some cases, Roman numerals denote scale degrees themselves. More commonly, however, they represent the chord whose root note is that scale degree. For instance, III denotes either the third scale degree or, more commonly, the chord built on it. Typically, uppercase Roman numerals (such as I, IV, V) are used to represent major chords, while lowercase Roman numerals (such as ii, iii, vi) are used to represent minor chords (see Major and Minor below for alternative notations). However, some music theorists use upper-case Roman numerals for all chords, regardless of chord quality.[2]
+
+### Remember:
+
+Major chords are represented by uppercase roman numerals. To read chord progressions starting with or containing an 'I' read the outer circle.
+Minor chords are represented by lower case roman numerals. To read chord progressions starting with or containing an 'i' read the inner circle.
+
 ## In practice...
 
 The music wheel is marked such that the blue arrow points to the key shown and is synonymous with 'I/i' in scale degrees.
 In case you are not familiar with roman numeral notation: 
 
-Major chords are represented by uppercase roman numerals. To read chord progressions starting with or containing an 'I' read the outer circle.
-Minor chords are represented by lower case roman numerals. To read chord progressions starting with or containing an 'i' read the inner circle.
-
 
 Listed below are some common chord progressions. I personally find the chord wheel useful when I need to transpose a chord progression to suit a vocalist.
 
-### Common Chord progressions
+## Common Chord progressions
 
   * I, V, vi, IV
   * I, IV, V
