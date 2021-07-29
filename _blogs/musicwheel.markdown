@@ -20,7 +20,7 @@ To create this handy dandy little musical tool you will need:
   
 ### Creating your 
 
-1) Download the [music slide rule template](/images/MusicSlideRule.pdf)
+1) Download the [music slide rule template](/assets/images/MusicSlideRule.pdf)
 2) Glue the image to card stock
 3) Cut out each of the circles
 4) Punch the holes out of the top disk
