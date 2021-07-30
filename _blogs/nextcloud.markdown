@@ -408,13 +408,28 @@ once you've done that you should simply be able to log in with the user you _jus
 All this talk about collabora and it still doesn't work?! Don't fret, the UI _is_ cool af and if you're
 anything like me, the shiny caught your attention and you tried to go play with all the pretty features.
 Take heed traveler: before you go editing .odt files in the browser you have to enable the collabora plugin,
-otherwise you're going to stub your toe on the office suite.
+otherwise you're going to stub your toe on the office suite. 
 
 Under the you icon in the top right corner you should see apps
 
 # screenshot here
 
-Under office tools in the menu on the left, you should find the collabora plugin tile. Select it to enable it
+Under office tools in the menu on the left, you should find the collabora plugin tile. Select it to enable it.
+Once everything is downloaded and enabled, go to your settings and under the administration section enter your
+your https://office.domain.name collabora instance set up in the composed appstack.
 
 
-now you're done, go you!
+#### Desktop Client Sit and Spin
+In order to get a desktop sync client working as intended it may become necessary to directly modify the php config
+directly (very un-docker). because I don't know how to get this bit into a docker-compose.yml file yet you'll have to
+manually connect to your docker instance and add the following to /var/www/html/config/config.php
+
+```
+...
+  'overwrite.cli.url' => 'https://nextcloud.voltpop.com',
+  'overwriteprotocol' => 'https',
+  'overwritehost' => 'nextcloud.voltpop.com',
+...
+```
+
+things should "Just Work", and now you're done, go you!
