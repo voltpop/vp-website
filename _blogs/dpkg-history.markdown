@@ -11,7 +11,7 @@ date: 2021-07-03
 
 As a (primarily) Ubuntu user, one thing I can safely say about my time working with RHEL is this: I miss `yum history`...
 
-so I decided to be write this kludgy little ditty:
+so I decided to get started writing this kludgy little ditty:
 
 <center><big><a href="https://github.com/warwalrux/dpkg-history/archive/refs/heads/main.zip">dpkg-history!</a></big></center>
 
@@ -35,5 +35,12 @@ What works:
 what still _needs_ work:
     * -u/--undo -- undo specified job
     - -i/--info -- could be a lot better
+
+
+### Thoughts about dpkg-history
+
+I'm still working on this but that doesn't mean that I'm not always looking for new feature ideas and new ways of doing things.
+I like to consider myself a professional learner (as in I learn things professionaly, otherwise would just be silly...) and so
+if you have an idea, please feel free to drop me a line or even better hit me up on github right on the repo itself.
 
 If it doesn't work for you: no hard feelings? :)

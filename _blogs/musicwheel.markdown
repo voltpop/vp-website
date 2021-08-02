@@ -3,6 +3,7 @@ layout: single
 permalink: /blogs/musicwheel/
 collection: blogs
 title: Musical Slide Rule
+date: 2021-07-31
 
 ---
 
