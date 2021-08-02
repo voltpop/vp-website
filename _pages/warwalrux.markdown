@@ -7,12 +7,11 @@ permalink: /warwalrux/
 
 ## Professional enabler, amateur musician, and general fool
 
-Drew Foulks (warwalrux) is a human being for both fun and profit
+Drew Foulks (warwalrux) is a human being for both fun and profit. He enjoys spending his spare time, and doesn't _not_ do things.
 
-He enjoys spending his spare time, and doesn't _not_ do things...
 
 ### Where boredom is, inspiration grows!
 
-has an approximate knowledge of many things and likes to explore.
+Armed with an approximate knowledge of many things, Drew likes to explore concepts and abstract ideas using a variety of media and blogs about himself in the third person.
 
-plays guitar and videogames, writes programs and goofy songs, loves to cook.
+Drew plays guitar and videogames, writes programs and jingles, loves the oxford comma, sarcasm, and cooking.
