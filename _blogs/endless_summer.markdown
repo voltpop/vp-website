@@ -25,4 +25,15 @@ I know that this doesn't seem as put together as some of the other stuff I've wr
 different. I want to point out that for many kids (mine included) August 8th was kind of the end of an endless summer. After
 being released from school several months early due to a global pandemic, many children didn't return to physical school for
 the entire year. Opting instead for a virtually agmented existence. Today is the day that many of our kids are returning to
-"real life" for the first time in a year.
+"real life" for the first time in almost two years...
+
+Our kids really need our help. Let's make things as easy as possible for our children entering school, and let's above all remain
+understanding and considerate to the needs of those who don't have the means for self-determination at this time of year: 
+
+School Kids:
+
+don't begrudge them their general depression or their anxiety attacks over the things that are happening around them that
+they don't feel like they can control... The fact is that if were children with the knowledge we have now, we'd be freaking
+out too. And before you interject that our kids don't understand what's going on, consider that they have their own understanding
+of how this is shaping the world. Consider further that after you're long gone: their understanding will still be around.
+
