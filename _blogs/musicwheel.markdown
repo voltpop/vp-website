@@ -45,8 +45,27 @@ In case you are not familiar with roman numeral notation:
 
 Listed below are some common chord progressions. I personally find the chord wheel useful when I need to transpose a chord progression to suit a vocalist.
 
-## Common Chord progressions
+## Common chord progressions and scales
 
+### Major
+
+**Scale:** I, ii, iii, IV, V, vi, vii(dim)
+
+**Popular Progressions:**
   * I, V, vi, IV
+  * i, VI, III, VII
+  * I, IV, V, I
+  * I, vi, IV, V
+  * I, IV, I, V
+  * I, ii, iii, IV, V
+  * I, V, vi, iii, IV, I, ii, V
   * I, IV, V
+  
+### Minor
+
+**Scale:** i, ii(dim), III, iv, V, VI, VII
+
+**Popular Progressions:**
   * ii-7, V7, I7
+  * i, V, i, iv
+  * i, VI, iv, VII
