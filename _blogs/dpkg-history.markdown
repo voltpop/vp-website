@@ -29,12 +29,11 @@ dpkg-history parses the dpkg.log file to give you _some_ yum history like functi
 I'm still working on some things but for right now:
 
 What works:
-    * -s/--show -- show all of the jobs in dpkg.log
-    * -i/--info -- show information about the specified job
-
+    * --show -- show all of the jobs in dpkg.log
+    * --info -- show detailed information about the specified job
+    * --redo -- preform all of the actions in a specified job, again.
 what still _needs_ work:
-    * -u/--undo -- undo specified job
-    - -i/--info -- could be a lot better
+    * --undo -- undo specified job
 
 
 ### Thoughts about dpkg-history
