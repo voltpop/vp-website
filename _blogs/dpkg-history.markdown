@@ -2,7 +2,7 @@
 layout: single
 permalink: /blogs/dpkg-history/
 collection: blogs
-title: dpkg history
+title: dpkg-history
 date: 2021-07-03
 
 ---
