@@ -7,7 +7,6 @@ date: 2021-08-08
 
 ---
 
-
 ## That time they ran a mirror
 
 
