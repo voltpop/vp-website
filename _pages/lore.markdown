@@ -1,6 +1,6 @@
 ---
 layout: collection
-permalink: "/asflore/"
+permalink: "/lore/"
 title: "Lore and Legend at The Apache Software Foundation"
 collection: lore
 entries_layout: list
