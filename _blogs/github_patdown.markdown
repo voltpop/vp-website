@@ -24,10 +24,10 @@ According to the the GitHub Documentation, PATs can be used much in the same way
 
 There are a ton of ways to store your PAT so that you can use it whenever the mood strikes you. In this particular instance however, I'm going to _highly_ recommend using a git-credentials helper. That sounds very fancy, and may well indeed _be_ fancy, but it's still just putting your credentials into a text file somewhere on the filesystem so big deal right? In order to leverage the automagical wonder that is git-credentials all you need to do is create a credentials file and set the config!
 
+```
 $ git config credential.helper store
 $ echo "https://username:PersonalAccessToken@github.com" >> ~/.git-credentials
-$ git push # to test your changes
-
+$ git push # to test your changes```
 
 #### PAT as an envvar
 
