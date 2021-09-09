@@ -32,9 +32,7 @@ $ git push # to test your changes```
 #### PAT as an envvar
 
 IF you don' share your machine with any other non-muggles (read: non-technical people), then storing your PATs as environment variables isn't a bad way to go. Also there is a long and storied history of people creating overly complicated
-
-
-I, like many fine linux folks have an overly complicated system of customizations built up over the years. One of the things I've done for myself is to define my GitHub account and token in the appropriate format and export it as an environment variable.
+.bashrc and .profile files. I, like many fine linux folks have an overly complicated system of customizations built up over the years myself, and just one of the things I've done for myself is to define my GitHub account and token in the appropriate format and export it as an environment variable.
 
 `export $username="username:ghp_longTokenStringHere"` 
 
