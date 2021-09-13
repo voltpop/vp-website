@@ -44,6 +44,7 @@ collections:
   blogs:
     output: true
     permalink: /:collection/:path/
+    sort_by: date
 #  lore:
 #    output: true
 #    permalink: /:collection/:path/
