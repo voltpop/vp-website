@@ -13,4 +13,10 @@ header:
 
 # Sieze the Lightning!
 ---
-<center><font size="+3"><b>Carpe Fulmen</b></font></center>
+<center><font size="+3"><b>Volt Populous</b></font></center>
+<center><i>Power to the People</i></center>
+Welcome to the [semi-professional blog](/blogs/) of [Drew Foulks](/warwalrux/).
+
+Here you'll find open sourcery and thoughts about things related to open source, technology in general, the arts and sciences, and more. 
+
+It's not much, but it's a blog, [hit me up](mailto:dfoulks@voltpop.com)
