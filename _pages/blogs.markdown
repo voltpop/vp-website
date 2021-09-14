@@ -8,5 +8,6 @@ classes: wide
 ---
 {% assign sorted = site.blogs | sort: 'date' | reverse %}
 {% for item in sorted %}
-  <h1>{{ item.title }}</h1>
+  <a href="{{ item.url }}"><h2>{{ item.title }}</h2></a>
+  <p>{{ item.excerpt }}</p>
 {% endfor %}

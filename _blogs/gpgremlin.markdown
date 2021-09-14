@@ -4,10 +4,11 @@ permalink: /blogs/GPGremlin/
 collection: blogs
 title: GPGremlin
 date: 2021-07-10
+excerpt_separator: <!--excerpt-->
 
 ---
-
 ## GPGremlin: A handy little helper for your GPG woes!
+<!--excerpt-->
 
 [Download Gremlin](https://github.com/warwalrux/GPGremlin/archive/refs/heads/main.zip)
 

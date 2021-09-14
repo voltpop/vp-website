@@ -4,11 +4,11 @@ permalink: /blogs/nextcloud/
 collection: blogs
 title: Nextcloud
 date: 2021-07-17
+excerpt_separator: <!--excerpt-->
 
 ---
-
 ### We don't need google where we're going...
-
+<!--excerpt-->
 I had some downtime recently, and with school coming up, I decided to install and 
 configure a NextCloud instance for the family to use. There are a lot of great things
 about nextcloud not the least of which is the ability to backup images from your phone.

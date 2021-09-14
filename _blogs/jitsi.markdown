@@ -4,11 +4,11 @@ permalink: /blogs/jitsi/
 collection: blogs
 title: Jitsi
 date: 2021-07-24
+excerpt_separator: <!--excerpt-->
 
 ---
-
 ## Make un-frustrating what is frustrating.
-
+<!--excerpt-->
 Jitsi is awesome. Point. Blank. Period.
 
 Jitsi is not, however, easy for the layman (or even experienced admin) to set up or understand.

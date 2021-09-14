@@ -4,10 +4,11 @@ permalink: /blogs/tetris/
 collection: blogs
 title: Tetris!
 date: 2021-09-13
+excerpt_separator: <!--excerpt-->
 
 ---
 ## A Monument to your failure and inadequacy!
-
+<!--excerpt-->
 ### First some love
 
 [Tetris](https://en.wikipedia.org/wiki/Tetris), is among the best and most popular video games ever made. It's popularity has not waned in the 40 years it's been kicking around the market and its catchy theme song (based on the russian tune [Korobeiniki](https://en.wikipedia.org/wiki/Tetris)) has yet to fade from public consciousness. Despite its (totally awesome-ly addictive) intuitive gameplay and killer soundtrack, there is an odd parable to be found in the game of tetris. 

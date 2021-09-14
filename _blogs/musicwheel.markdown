@@ -4,11 +4,11 @@ permalink: /blogs/musicwheel/
 collection: blogs
 title: Musical Slide Rule
 date: 2021-07-31
+excerpt_separator: <!--excerpt-->
 
 ---
-
 ## In theory: theory and practice are the same...
-
+<!--excerpt-->
 I've been trying to teach myself music theory for several years now, and if you know me and my absent-minded tool making habit, this should come as no surprise: I've come up with a musical slide rule to quickly transpose and identify keys and chords in both the major and minor scales. I've shared this with a few musical friends over the years and while the reception hasn't been overwhelming, it's been positive enough on the learner level that I feel like I should share the wealth with all my fellow newbs
 
 To create this handy dandy little musical tool you will need:

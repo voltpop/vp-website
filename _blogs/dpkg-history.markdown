@@ -4,11 +4,11 @@ permalink: /blogs/dpkg-history/
 collection: blogs
 title: dpkg-history
 date: 2021-07-03
+excerpt_separator: <!--excerpt-->
 
 ---
-
 ## Be the change you wish to see in the world
-
+<!--excerpt-->
 As a (primarily) Ubuntu user, one thing I can safely say about my time working with RHEL is this: I miss `yum history`...
 
 so I decided to get started writing this little ditty:

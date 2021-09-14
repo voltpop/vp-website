@@ -4,10 +4,11 @@ permalink: /blogs/github_pat/
 collection: blogs
 title: Configuring GitHub PAT
 date: 2021-08-27
+excerpt_separator: <!--excerpt-->
 
 ---
-
 ## It's PAT!
+<!--excerpt-->
 
 GitHub has officially phased out their username / password method for checking in changes. Since August 13th, they've begun to require either SSH based checkouts (which are _pretty nice_) or PAT (Personal Access Token) based authentication.
 

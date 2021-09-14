@@ -4,11 +4,11 @@ permalink: /blogs/endless-summer/
 collection: blogs
 title: The Endless Summer
 date: 2021-08-08
+excerpt_separator: <!--excerpt-->
 
 ---
-
 ## March 13th 2020 - August 8th 2021
-
+<!--excerpt-->
 As you read this I ask you to remember the countless thousands that have lost friends and family members during the endless summer. 
 
 Since March of last year, coronavirus has become a commonplace topic of conversation in my household. Everyone has an opinion on 
