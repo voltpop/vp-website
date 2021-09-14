@@ -1,8 +1,7 @@
 ---
-layout: collection
+layout: single
 permalink: "/blogs/"
 title: "Headaches with Pictures"
-collection: blogs
 classes: wide
 
 ---
