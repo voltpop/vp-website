@@ -15,8 +15,16 @@ header:
 ---
 <center><font size="+3"><b>Volt Populous</b></font></center>
 <center><i>Power to the People</i></center>
-Welcome to the [semi-professional blog](/blogs/) of [Drew Foulks](/warwalrux/).
+<br><br>
 
-Here you'll find open sourcery and thoughts about things related to open source, technology in general, the arts and sciences, and more. 
+Welcome to the [semi-professional](https://www.linkedin.com/in/andrewfoulks/) [blog](/blogs/) of [Drew Foulks](/warwalrux/).
 
-It's not much, but it's a blog, [hit me up](mailto:dfoulks@voltpop.com)
+
+**Here be Open Sourcery**
+
+Here you can find the less rambly bits of my thoughts about Open Source technology, life in IT, the Arts and Sciences, and Whatever else I can think of that's worth sharing.
+
+
+**It's not much, but it's a blog**
+
+If you have feedback, feel free to [hit me up](mailto:dfoulks@voltpop.com).
