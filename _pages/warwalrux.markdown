@@ -14,4 +14,4 @@ Drew Foulks (warwalrux) is a human being for both fun and profit. He enjoys spen
 
 Armed with an approximate knowledge of many things, Drew likes to explore concepts and abstract ideas using a variety of media and blogs about himself in the third person.
 
-Drew plays guitar and videogames, writes programs and jingles, loves the oxford comma, sarcasm, and cooking.
+Drew plays guitar and videogames; writes programs and jingles; loves the oxford comma, sarcasm, and cooking.
