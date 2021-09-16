@@ -41,6 +41,16 @@ This allows a user to run the clone operation with minimal workflow changes:
 
 `git clone $username@github.com:/org/repo`
 
+
+### Checking out with PAT
+
+You should be able to append your Personal Access Token to the clone url.
+
+e.g.:
+
+`git clone https://$username@github.com/username/repo`
+
+
 ### Updating your pre-existing checkouts
 
 This is probably the most difficult part of the exercise: updating your checkouts (after you remember where you checked them out...). Fortunately, the actual updating part is pretty painless as it's just an origin url update. Provided you've used envvar method from above this should be as easy as running the following:
