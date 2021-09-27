@@ -27,4 +27,5 @@ Here you can find the less rambly bits of my thoughts about Open Source technolo
 
 **It's not much, but it's a blog**
 
-If you have feedback, feel free to [hit me up](mailto:dfoulks@voltpop.com).
+If you have feedback or want to chat, feel free to [shoot me an email](mailto:dfoulks@voltpop.com), or find me on [discord](https://discord.gg/yXRaC85Q)
+
