@@ -8,7 +8,7 @@ excerpt_separator: <!--excerpt-->
 
 ---
 ## Managing SSL/TLS domains using Apache HTTPD wizardry
-<!-- excerpt -->
+<!--excerpt-->
 
 SSL/TLS is not a new thing. HTTPS has been keeping our datas safe over the internet for over 20 years now, but certificate management is still a massive PITA. Since the beginning, The Apache Webserver has been a supporter and proponent of SSL since 1998's `mod_ssl`. With Apache Webserver 2.4, `mod_md` "Managed Domain Module" lets the overburdened administrator offload certificate management to the streamlined, baked in LetsEncrypt handler.
 
