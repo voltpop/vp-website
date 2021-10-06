@@ -2,7 +2,7 @@
 layout: single
 permalink: /blogs/ez-tls/
 collection: blogs
-title: Using `mod_md` for certificate management
+title: Using mod_md for SSL/TLS
 date: 2021-10-05
 excerpt_separator: <!--excerpt-->
 
@@ -23,8 +23,7 @@ mod MD elminiates the need for the overhead orchestration by handling the certif
 ## Setting up Mod MD
 
 ### 1. instance install and enable the module (Example shown uses Ubuntu 20.04)
-<div class="term">
-~# apt install libapache2-mod-md
+<div class="term">~# apt install libapache2-mod-md
 ~# a2enmod md
 ~# a2enmod ssl
 ~# systemctl apache2.service restart
@@ -34,8 +33,7 @@ mod MD elminiates the need for the overhead orchestration by handling the certif
 In `/etc/apache2/conf.d/mod_md.conf` add:
 
 
-<div class="term">
-MDCertificateAgreement accepted
+<div class="term">MDCertificateAgreement accepted
 MDomain your.domain.com
 MDContactEmail you@emailaddress.com
 </div>
@@ -45,8 +43,7 @@ MDContactEmail you@emailaddress.com
 In your `/etc/apache2/sites-available/<yoursite>.conf` file:
 
 
-<div class="term">
-MDomain mydomain.com
+<div class="term">MDomain mydomain.com
 
 <VirtualHost *:443>
   ServerName mydomain.com

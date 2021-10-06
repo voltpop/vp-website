@@ -25,8 +25,7 @@ I know right know it seems kind of specific in it's use case but I think with so
 
 Download and configure the Python Virtual Environment
 
-<div class="term">
-~$ wget https://github.com/warwalrux/GPGremlin/archive/refs/heads/main.zip
+<div class="term">~$ wget https://github.com/warwalrux/GPGremlin/archive/refs/heads/main.zip
 ~$ cd into GPGremlin
 ~$ pip install -r requirements.txt
 ~$ ln -s $pwd/gremlin ~/bin/gremlin
@@ -49,8 +48,7 @@ a keyring object is a yaml dictionary of key / value pairs where the key
 is the search criteria (typically an email address) and the value is the
 hash of the key for which you are looking.
 
-<div class="term">
----
+<div class="term">---
 keys:
   "dfoulks@apache.org": '6547814F1305619989803CA8C70B04130E01135B'
 </div>
@@ -60,8 +58,7 @@ keys:
 If you have a use case and a configured keyring file, with two commands you can
 create a keyfile containing several keys
 
-<div class="term">
-# Create the named keyring
+<div class="term"># Create the named keyring
 ~$ gremlin -cn <your-keyring>
 
 # Armored export of the named keyring
