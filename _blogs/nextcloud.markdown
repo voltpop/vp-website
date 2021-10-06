@@ -69,32 +69,28 @@ a) installed some pre-requisite packages:
   * gnupg-agent
   * software-properties-common
 
-b) Added the docker repository and installed docker-ce and docker-compose
+b) Added the docker repository and install docker-ce and docker-compose
 
-*Code*:
-```
-apt install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
-add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
-apt -y install docker-ce
-usermod -aG docker ${USER}
-curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-chmod +x /usr/local/bin/docker-compose
-```
+<div class="term">~$ apt install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+~$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
+~$ add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
+~$ apt -y install docker-ce
+~$ usermod -aG docker ${USER}
+~$ curl -L "https://github.com/docker/compose/releases/download/1.25.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+~$ chmod +x /usr/local/bin/docker-compose
+</div>
 
 #### Install and Configure apache2
 
-```
-apt install apache2
-a2enmod ssl proxy proxy_http proxy_wstunnel rewrite headers
-systemctl restart apache2
-echo "Protocols h2 http/1.1" >> /etc/apache2/apache2.conf
-```
+<div class="term">~$ apt install apache2
+~$ a2enmod ssl proxy proxy_http proxy_wstunnel rewrite headers
+~$ systemctl restart apache2
+~$ echo "Protocols h2 http/1.1" >> /etc/apache2/apache2.conf
+</div>
 
 ##### Create /etc/apache2/sites-available/010.nextcloud.conf
 
-```
-<VirtualHost *:80>
+<div class="term"><VirtualHost *:80>
   ServerName nextcloud.domain.com
   ErrorLog ${APACHE_LOG_DIR}/nextcloud-error.log
   CustomLog ${APACHE_LOG_DIR}/nextcloud-access.log combined
@@ -121,11 +117,11 @@ echo "Protocols h2 http/1.1" >> /etc/apache2/apache2.conf
   SSLCertificateFile      /etc/ssl/certs/ssl-cert-snakeoil.pem
   SSLCertificateKeyFile /etc/ssl/private/ssl-cert-snakeoil.key
 </VirtualHost>
-```
+</div>
 
 ##### Create /etc/apache2/sites-available/011.office.conf
-```
-echo "<VirtualHost *:80>
+
+<div class="term"><VirtualHost *:80>
   ServerName office.domain.com
   ErrorLog ${APACHE_LOG_DIR}/error.log
   CustomLog ${APACHE_LOG_DIR}/access.log combined
@@ -171,11 +167,10 @@ echo "<VirtualHost *:80>
   SSLCertificateFile      /etc/ssl/certs/ssl-cert-snakeoil.pem
   SSLCertificateKeyFile /etc/ssl/private/ssl-cert-snakeoil.key
 </VirtualHost>
-```
+</div>
 
 ##### Create /etc/apache2/sites-available/999-catchall.conf
-```
-<VirtualHost *:80>
+<div class="term"><VirtualHost *:80>
   RedirectMatch permanent ^/(.*)$ https://www.bing.com
   ErrorLog ${APACHE_LOG_DIR}/catchall-error.log
   CustomLog ${APACHE_LOG_DIR}/catchall-access.log combined
@@ -189,29 +184,27 @@ echo "<VirtualHost *:80>
   SSLCertificateFile   /etc/ssl/certs/ssl-cert-snakeoil.pem
   SSLCertificateKeyFile /etc/ssl/private/ssl-cert-snakeoil.key
 </VirtualHost>
-```
+</div>
 
 #### Enable the appropriate sites
 
-```
-a2dissite 000-default.conf
+<div class="term">a2dissite 000-default.conf
 a2ensite 010-nextcloud.conf
 a2ensite 011-collabora.conf
 a2ensite 999-catchall.conf
 
 systemctl restart apache2
 systemctl status apache2
-```
+</div>
 
 #### LetsEncrypt!
 
 This part is a lot more fun than it used to be. on a 20.04 host you simply need to install
 certbot and run it!
 
-```
-snap install --classic certbot
+<div class="term">snap install --classic certbot
 certbot --apache
-```
+</div>
 
 and fill out the information.
 
@@ -239,22 +232,20 @@ of the setup while I drink my gin drink.
 
 Here's (basically) what I used:
 
-```
-NEXTCLOUD_ROOT=/opt/nextcloud
+<div class="term">NEXTCLOUD_ROOT=/opt/nextcloud
 NEXTCLOUD_IPADDRESS=192.168.1.1
 NEXTCLOUD_FQDN=nextcloud.comain.com
 COLLABORA_FQDN=office.domain.com
 MYSQL_ROOT_PASSWORD=CHANGEME
 MYSQL_PASSWORD=CHANGEME
 COTURN_SECRET=CHANGEME
-```
+</div>
 
 ### The docker-compose.yml file
 
 This part is a little bit more involved so feel free to copy and paste:
 
-```
-networks:
+<div class="term">networks:
  nextcloud:
 
 services:
@@ -341,7 +332,7 @@ services:
     cap_add:
       - MKNOD
     tty: true
-```
+</div>
 
 This sets up 5 different docker containers, each running one service with its
 configuration and runing directives nested within each configuration object.
@@ -358,7 +349,7 @@ Also Please Note:
 the `command` directive on the mariadb service container is absolutely essential, if
 you forget it you'll whang your noggin on this:
 
-```General Error: 4047 InnoDB refuses to write tables with ROW_FORMAT=COMPRESSED or KEY_BLOCK_SIZE```
+`General Error: 4047 InnoDB refuses to write tables with ROW_FORMAT=COMPRESSED or KEY_BLOCK_SIZE`
 
 ### A Note about using docker-compose
 
@@ -424,12 +415,11 @@ In order to get a desktop sync client working as intended it may become necessar
 directly (very un-docker). because I don't know how to get this bit into a docker-compose.yml file yet you'll have to
 manually connect to your docker instance and add the following to /var/www/html/config/config.php
 
-```
-...
+<div class="term">...
   'overwrite.cli.url' => 'https://nextcloud.voltpop.com',
   'overwriteprotocol' => 'https',
   'overwritehost' => 'nextcloud.voltpop.com',
 ...
-```
+</div>
 
 things should "Just Work", and now you're done, go you!

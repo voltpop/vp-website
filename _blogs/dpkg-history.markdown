@@ -32,10 +32,10 @@ I'm still working on some things but for right now:
 
 What works:
   * `--list`          Show last 30 days worth of jobs in dpkg.log
-  * `--show-last`     Show last <num> days of jobs
-  * `--show-all`      Show **ALL** jobs in dpkg.log
+    * `--show-last`     Show last <num> days of jobs
+    * `--show-all`      Show **ALL** jobs in dpkg.log
   * `--info`          Show detailed information about the specified job
-  * `--inspect`       Dump the jobs raw entries from the logfile
+  
 
 ### Thoughts about dpkg-history
 

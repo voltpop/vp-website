@@ -23,12 +23,16 @@ I know right know it seems kind of specific in it's use case but I think with so
 
 ### Setting Up GPGremlin
 
-  * wget https://github.com/warwalrux/GPGremlin/archive/refs/heads/main.zip
-  * cd into GPGremlin
-  * pip install -r requirements.txt
-  * ln -s $pwd/gremlin ~/bin/gremlin
+Download and configure the Python Virtual Environment
 
-Open config.yml and set the following:
+<div class="term">
+~$ wget https://github.com/warwalrux/GPGremlin/archive/refs/heads/main.zip
+~$ cd into GPGremlin
+~$ pip install -r requirements.txt
+~$ ln -s $pwd/gremlin ~/bin/gremlin
+</div>
+
+Open config.yml with your favorite editor and set the following:
     - keyservers            -- a list of keyserver urls to check
     - keyring_config_path   -- $pwd/keyrings
     - gpg_home              -- optional, if unset defaults to: ~/.gnupg/
@@ -45,23 +49,23 @@ a keyring object is a yaml dictionary of key / value pairs where the key
 is the search criteria (typically an email address) and the value is the
 hash of the key for which you are looking.
 
-```
+<div class="term">
 ---
 keys:
   "dfoulks@apache.org": '6547814F1305619989803CA8C70B04130E01135B'
-```
+</div>
 
 #### Creating and Exporting a keyring for distribution
 
 If you have a use case and a configured keyring file, with two commands you can
 create a keyfile containing several keys
 
-```
+<div class="term">
 # Create the named keyring
-$ gremlin -cn <your-keyring>
+~$ gremlin -cn <your-keyring>
 
 # Armored export of the named keyring
-$ gremlin -en <your-keyring>
-```
+~$ gremlin -en <your-keyring>
+</div>
 
 If it doesn't work for you: no hard feelings? :)

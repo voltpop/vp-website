@@ -31,8 +31,7 @@ can bind to it, and redirect it's own traffics, port 10000 if for webRTC (Real T
 
 This one is a bread and butter style redirect.
 
-```
-<VirtualHost *:80>
+<div class="term"><VirtualHost *:80>
     ServerName jitsi.domain.name
     ProxyPreserveHost On
 
@@ -59,42 +58,42 @@ This one is a bread and butter style redirect.
     SSLCertificateKeyFile /etc/letsencrypt/live/servername.voltpop.com/privkey.pem
     Include /etc/letsencrypt/options-ssl-apache.conf
 </VirtualHost>
-```
+</div>
 
 ### Docker App Deployment In A Nutshell:
 
 1) Grab source
-```
-wget https://github.com/jitsi/docker-jitsi-meet/archive/refs/tags/stable-5963.tar.gz
+
+<div class="term">wget https://github.com/jitsi/docker-jitsi-meet/archive/refs/tags/stable-5963.tar.gz</div>
 
 2) Unpack in /opt
-```
-cd /opt
-tar xvf /root/stable-5963.tar.gz
-ln -s docker-jitsi-meet-stable-5963 jitsi
-cd jitsi
-```
+
+<div class="term">~$ cd /opt
+~$ tar xvf /root/stable-5963.tar.gz
+~$ ln -s docker-jitsi-meet-stable-5963 jitsi
+~$ cd jitsi
+</div>
 
 3) Configure docker-compose environment
-```
-cp env.example .env
-vim .env // configure settings appropriately
-./gen-passwords.sh
-```
+
+<div class="term">~$ cp env.example .env
+~$ vim .env // configure settings appropriately
+~$ ./gen-passwords.sh
+</div>
 
 4) Configure the `PUBLIC_URL` and `DOCKER_HOST_ADDRESS` in the .env file.
 
 5) Set up local filesystem and deploy the app
-```
-mkdir -p ~/.jitsi-meet-cfg/{web/letsencrypt,transcripts,prosody/config,prosody/prosody-plugins-custom,jicofo,jvb,jigasi,jibri}
-docker-compose up 
-```
+
+<div class=term>~$ mkdir -p ~/.jitsi-meet-cfg/{web/letsencrypt,transcripts,prosody/config,prosody/prosody-plugins-custom,jicofo,jvb,jigasi,jibri}
+~$ docker-compose up 
+</div>
 
 ### Certbot Magic:
 
 Like I said before: I use this server with other docker apps. but I also like to use SSL so how does certbot handle updating
 the certificate with an additional domain name? like a boss, that's how.
 
-```certbot certonly -d first.domain.com -d second.domain.com -d additional.domain.com```
+<div class="term">certbot certonly -d first.domain.com -d second.domain.com -d additional.domain.com</div>
 
 and then select `e` to expand the current certificate.

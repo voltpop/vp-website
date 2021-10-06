@@ -25,21 +25,21 @@ According to the the GitHub Documentation, PATs can be used much in the same way
 
 There are a ton of ways to store your PAT so that you can use it whenever the mood strikes you. In this particular instance however, I'm going to _highly_ recommend using a git-credentials helper. That sounds very fancy, and may well indeed _be_ fancy, but it's still just putting your credentials into a text file somewhere on the filesystem so big deal right? In order to leverage the automagical wonder that is git-credentials all you need to do is create a credentials file and set the config!
 
-```
-$ git config credential.helper store
-$ echo "https://username:PersonalAccessToken@github.com" >> ~/.git-credentials
-$ git push # to test your changes```
-
+<div class="term"># On your machine
+~$ git config credential.helper store
+~$ echo "https://username:PersonalAccessToken@github.com" >> ~/.git-credentials
+~$ git push # to test your changes
+</div>
 #### PAT as an envvar
 
 IF you don' share your machine with any other non-muggles (read: non-technical people), then storing your PATs as environment variables isn't a bad way to go. Also there is a long and storied history of people creating overly complicated
 .bashrc and .profile files. I, like many fine linux folks have an overly complicated system of customizations built up over the years myself, and just one of the things I've done for myself is to define my GitHub account and token in the appropriate format and export it as an environment variable.
 
-`export $username="username:ghp_longTokenStringHere"` 
+<div class="term">export $username="username:ghp_longTokenStringHere"</div>
 
 This allows a user to run the clone operation with minimal workflow changes:
 
-`git clone $username@github.com:/org/repo`
+<div class="term">git clone $username@github.com:/org/repo</div>
 
 
 ### Checking out with PAT
@@ -48,14 +48,14 @@ You should be able to append your Personal Access Token to the clone url.
 
 e.g.:
 
-`git clone https://$username@github.com/username/repo`
+<div class="term">git clone https://$username@github.com/username/repo</div>
 
 
 ### Updating your pre-existing checkouts
 
 This is probably the most difficult part of the exercise: updating your checkouts (after you remember where you checked them out...). Fortunately, the actual updating part is pretty painless as it's just an origin url update. Provided you've used envvar method from above this should be as easy as running the following:
 
-`git remote set-url origin $username@github.com/org/repo`
+<div class="term">git remote set-url origin $username@github.com/org/repo</div>
 
 If you've opted to use the git credential.helper that's cool too, it may suit your purposes to start a new bash shell, temporarily export your GitHub User:Token, update your repos, then kill your shell. So the token doesn't persist as an environment variable.
 
