@@ -30,9 +30,9 @@ the entire year, opting instead for a virtually agmented existence. Today is the
 Our kids really need our help. Let's make things as easy as possible for our children entering school, and let's above all remain
 understanding and considerate to the needs of those who don't have the means for self-determination at this time of year: 
 
-School Kids:
+### School Kids
 
-don't begrudge them their general depression or their anxiety attacks over the things that are happening around them that
+Let's not begrudge them their general depression or their anxiety attacks over the things that are happening around them that
 they don't feel like they can control... The fact is that if were children with the knowledge we have now, we'd be freaking
 out too. And before you interject that our kids don't understand what's going on, consider that they have their own understanding
 of how this is shaping the world. Consider further that after you're long gone: their understanding will still be around.
