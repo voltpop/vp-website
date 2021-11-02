@@ -2,13 +2,13 @@
 layout: single
 permalink: /blogs/warp/
 collection: blogs
-title: Web Automation Rest Parser
+title: Speedy Web Automation with `warp`
 date: 2021-11-01
 excerpt_separator: <!--excerpt-->
 
 ---
 
-## AKA Warwalrux Awesome Rest Parser
+## Warwalrux Awesome Rest Parser
 <!--excerpt-->
 
 `warp` is a tool born of necessity... namely the necessity of having to do things, but not wanting to do the clicky bits to get them done. I wrote this script so that I could programmatically make rest calls and daisy chain the output together, so that I could automate larget web processes between multiple disparate sources. 
@@ -25,7 +25,7 @@ Warp currently lives [here](https://github.com/dfoulks1/warp), and can be run st
 
 ## Using warp
 
-`./warp -j jobs/example.yml`
+<div class="term">~$ ./warp -j jobs/example.yml</div>
 
 example.yml is an ansible-playbook inspired yaml job file. Jaws will read and run, in turn, each of the defined tasks.
 
@@ -38,16 +38,11 @@ A Job **must** have:
 * `tasks` which is a list of tasks to be run in the session.
 
 A Job _may_ have:
-* `loop`        // loop through the task.
-  * `items`     // list of items to iterate through, may be jinja.
-  * `iter_name` // name by which the current item in the iteration can be used. 
 * `authentication`
-  * `username`
-  * `password`
-* `verbose` [ True | False ]
-* `vars`
-* `headers`
-* `certificates`
+* `verbose` // boolean value
+* `vars`    // a dictionary of values to be ingested as python dict.
+* `headers` // a dictionary of values to be converted to headers
+* `certificates`    // SSL certificate settings
 
 #### Authentication
 
@@ -63,6 +58,7 @@ If the `certs` key is present in the job, the script will attempt to add the fol
 
 The script persist in using these settings for the entire job.
 
+
 ### Tasks
 
 a task **must** have:
@@ -71,8 +67,8 @@ a task **must** have:
     If the required `uri` is none. specify `none`.
 * `name`
     The friendly display name for the task
-* `req`. 
-    The request type for the task (GET|POST|DELETE|PUT)
+* `action`. 
+    The action step for the current task.
 
 if any of there are not present, the script will bail.
 
@@ -81,37 +77,64 @@ a task _may_ have:
     a URL that will override the job stub ad hoc.
 * `data`
     YAML formatted request payload
+* `loop`    // loop through the task.
+  * `items`     // list of items to iterate through, may be jinja.
+  * `iter_name` // name by which the current item in the iteration can be used. 
 * `output`
   * `type` // ( print | store | var )
-  * `name` // 
-  * `show` [ content | status_code | headers | template ] // print the content or status_code of the current task
+  * `name` // name of reference handle (filehandle, varname, etc)
+  * `show` ( content | status_code | headers | template ) // print the content or status_code of the current task
 
-### Output
+#### Action
+
+A task requires an `action` statement.
+
+##### `req`
+
+This is a standard web request. Valid values are: (GET|PUT|POST|DELETE)
+
+##### `dump`
+
+This is used to dump values to screen / catch them as output. Dump string is interpreted as jinja template.
+
+#### Loop
+
+If the `loop` key is found in the task object the script will construct `items` via jinja interpretation. The output will be iterated through and can be referenced by `iter_name`
+
+<div class="term">...
+    loop:
+      iter: "{% for issue in issues %}{{ issue.key }}{% endfor %}"
+      iter_name "ticket"
+</div>
+
+would then allow you to use "{{ ticket }}" as a valid variable.
+
+#### Output
 
 There are three options for output at this time:
 * `store`
 * `var`
 
-#### `store` example
+##### `store` example
 Values will be written to a file with name output["name"]. If no name is provided the script will interactively prompt for one. This method is useful for reporting
-```
-...
+
+<div class="term">...
     output:
       type: "store"
       show: "content"
       name: "filename.txt"
-```
+</div>
 
-#### `var` example
+##### `var` example
 
 Values stored as variables can be used in later steps with jinja templating
-```
-...
+
+<div class="term">...
     output:
       type: "var"
       show: "content"
       name: "tickets"
-```
+</div>
 
 ## Useful REST Documentation
 
