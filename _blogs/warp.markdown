@@ -73,17 +73,10 @@ a task **must** have:
 if any of there are not present, the script will bail.
 
 a task _may_ have:
-* `stub_override`
-    a URL that will override the job stub ad hoc.
-* `data`
-    YAML formatted request payload
-* `loop`    // loop through the task.
-  * `items`     // list of items to iterate through, may be jinja.
-  * `iter_name` // name by which the current item in the iteration can be used. 
-* `output`
-  * `type` // ( print | store | var )
-  * `name` // name of reference handle (filehandle, varname, etc)
-  * `show` ( content | status_code | headers | template ) // print the content or status_code of the current task
+* `stub_override`   // a URL that will override the job stub ad hoc.
+* `data`            // YAML formatted request payload
+* `loop`            // loop through the task.
+* `output`          // print the content or status_code of the current task
 
 #### Action
 
@@ -91,7 +84,11 @@ A task requires an `action` statement.
 
 ##### `req`
 
-This is a standard web request. Valid values are: (GET|PUT|POST|DELETE)
+Standard web request. Valid values are:
+* get
+* put
+* post
+* delete
 
 ##### `dump`
 
