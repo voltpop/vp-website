@@ -135,7 +135,7 @@ If the loop key is found in the task object the script will construct items via 
 <div class="term">
 ...
     loop:
-      iter: "{% raw %}{% for issue in issues %}{{ issue.key }}{% endfor %}{% endraw %}"
+      iter: {% raw %}"{% for issue in issues %}{{ issue.key }}{% endfor %}"{% endraw %}
       iter_name: "ticket"
 </div>
 
