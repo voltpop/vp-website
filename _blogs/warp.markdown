@@ -27,19 +27,19 @@ warp is a jobfile parser and jinja interpreter for a requests.session backend. T
 `example.yml` is one such job file. When run, warp will read the jobfile, establish session details, interpret the tasks and then run, in sequence, each of the defined tasks.
 
 [Job Sessions](#job-sessions)
-<pre>  </pre>[Authentication](#authentication)
-<pre>  </pre>[Certificates](#certificates)
-<pre>  </pre>[Options](#job-options)
+* [Authentication](#authentication)
+* [Certificates](#certificates)
+* [Options](#job-options)
 [Tasks](#tasks)
-<pre>  </pre>[Loops](#loops)
-<pre>  </pre>[Actions](#actions)
-<pre>    </pre>[Dump](#dump-tasks)
-<pre>    </pre>[Request](#req-tasks)
-<pre>  </pre>[Output](#output)
-<pre>    </pre>[screen](#screen-example)
-<pre>    </pre>[file](#file-example)
-<pre>    </pre>[var](#var-example)
-<pre>  </pre>[Options](#task-options)
+* [Loops](#loops)
+* [Actions](#actions)
+  * [Dump](#dump-tasks)
+  * [Request](#req-tasks)
+* [Output](#output)
+  * [screen](#screen-example)
+  * [file](#file-example)
+  * [var](#var-example)
+* [Options](#task-options)
 
 
 ## Getting Warp
