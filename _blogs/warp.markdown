@@ -194,7 +194,7 @@ Printing stored variable a Jinja Template string
     output:
       write_to: "screen"
       content: "template"
-      template_str: "{% for item in items}{{ item.name }}{% endfor }"
+      template_str: "{% raw %}{% for item in items}{{ item.name }}{% endfor %}{% endraw %}"
 </div>
 
 Printing stored variable with a Jinja Template file
