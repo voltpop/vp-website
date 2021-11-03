@@ -42,6 +42,10 @@ warp is a jobfile parser and jinja interpreter for a requests.session backend. T
   * [Options](#task-options)
 
 
+## Getting Warp
+Warp currently lives [here](https://github.com/dfoulks1/warp) and can be run straight from the repository after installing the contents of `requirements.txt`.
+
+
 ## Job Sessions
 
 Warp uses Job Sessions ( an alias to requests.sessions) to manage certificates, auth, and other connection settings for a series of REST calls. The script creates a session (authenticated or not) in order to run the tasks evaluated therein.
