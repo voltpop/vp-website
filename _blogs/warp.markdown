@@ -123,7 +123,7 @@ tasks:
     output:
       write_to: "screen"
 ...
-<div>
+</div>
 
 ### Loops
 If the loop key is found in the task object the script will construct items via jinja interpretation. The output will be iterated through and can be referenced by iter_name
@@ -133,7 +133,7 @@ If the loop key is found in the task object the script will construct items via 
     loop:
       iter: "{% raw %}{% for issue in issues %}{{ issue.key }}{% endfor %}{% endraw %}"
       iter_name: "ticket"
-<div>
+</div>
 
 This will allow you to use {% raw %}`{{ ticket }}`{% endraw $} as a valid variable for a task
 
@@ -151,7 +151,7 @@ a dump task lets a user use jinja templating to manipulate a stored variable. Wh
 ...
 action:
   dump: "{{ query_data.nodes }}"
-<div>
+</div>
 
 #### `req` tasks
 
