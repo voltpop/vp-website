@@ -11,13 +11,11 @@ excerpt_separator: <!--excerpt-->
 ## Warwalrux Awesome Rest Parser
 <!--excerpt-->
 
-`warp` is a tool born of necessity... namely the necessity of having to do things, but not wanting to do the clicky bits to get them done. I wrote this script so that I could programmatically make rest calls and daisy chain the output together, so that I could automate larget web processes between multiple disparate sources. 
+`warp` is a tool born of necessity... namely the necessity of having to do things, but not wanting to do the clicky bits to get them done. So I wrote a script that programmatically make rest calls and daisy chain the output together in order to automate larger web processes between multiple disparate sources. In a nutshell, I wanted to be able to query puppetdb with rest and make a webpage, _but also_ update jira tickets based on fancy shmancy confluence-fu (and not the other way around), _and_ show all of my GitHub PRs in a nice compact embedded HTML blurb.
 
-In a nutshell, I wanted query puppetdb with rest and make a webpage, but _also_ wanted to update jira tickets based on fancy shmancy confluence-fu (and not the other way around).
+What was crated from that necessity was `warp` or "Warwalrux' Awesome Rest Parser". 
 
-What was crated was `warp` or "Warwalrux Awesome Rest Parser". 
-
-the script draws from Ansible playbooks in the form of yaml jobfiles which control the scope and sequence of the jobs to be run by `warp`.
+the script draws inspiration from Ansible playbooks in the form of yaml jobfiles which control the scope and sequence of the jobs to be run by `warp`.
 
 **Basic Example:**
 <div class="term">~$ ./warp -j example.yml</div>
