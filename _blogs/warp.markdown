@@ -139,7 +139,7 @@ If the loop key is found in the task object the script will construct items via 
       iter_name: "ticket"
 </div>
 
-This will allow you to use {% raw %}{{ ticket }}{% endraw $} as a valid variable for a task
+This will allow you to use {% raw %}{{ ticket }}{% endraw %} as a valid variable for a task
 
 ### Actions
 
