@@ -14,14 +14,14 @@ For those of you not in the know: `screen` is a "full-screen terminal multiplexe
 
 There are a million and a half uses for screen from managing long running processes on remote servers to adding special functionality to your terminal. If you, like me, spend a lot of time working in a terminal, then you may benefit from `gpsy`!
 
-## Gnu Screen `.screenrc` files
+## Customized sessions
 
-While I have a lot of professional friends that prefer using tmux wrappers for their personal use, I'm a longtime screen fanboy. I've got a .screenrc (from the .rc `runcommand` nomenclature) about a mile long, loaded with goodies and what's worse is that I have several bespoke profiles for other tasks like sftp and IRC.
+While I have a lot of professional friends that prefer using tmux wrappers for their personal use, I'm a longtime screen fanboy. I've got a [.screenrc](https://www.gnu.org/software/screen/manual/screen.html#toc-Customizing-Screen) (from the .rc `runcommand` nomenclature) about a mile long, loaded with goodies as well as several bespoke profiles for other tasks like sftp and IRC.
 
 So I did what any \*nix person would do: I wrote a wrapper script for it!
 
-but over time that script grew and grew into what it is today which to be fair, isn't much. but I've managed to use it everyday for the last decade and it's been 100% everytime.
-
-the files are all set out as needed in usr/ and can be dropped into place quickly.
-
 Check it out here: [Gpsy](https://github.com/dfoulks1/gpsy)
+
+Over time that script grew and grew into what it is today which to be fair, isn't much. but I've managed to use it everyday for the last decade and it's been 100% everytime. the files are all set out as needed in usr/ and can be dropped into place quickly and easily. Included are also some sample profile files that can be added or updated.
+
+If it doesn't work for you, no hard feelings? :)
