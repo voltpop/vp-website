@@ -33,7 +33,7 @@ twitter_username: VoltPop
 github_username:  dfoulks
 
 # Build settings
-repository: "warwalrux/voltpopulous-site"
+repository: "voltpop/vp-website"
 remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 minimal_mistakes_skin: air
 plugins:
