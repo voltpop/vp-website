@@ -3,19 +3,6 @@ layout: single
 permalink: /offerings/
 
 ---
-
-## Knowledge and Experience
-
-Thomas Young, also known as the last man to know everything, passed away on May 10th, 1829. 
-
-Since then, the amount of knowledge has grown such that it is now impossible to know everything. These days, we rely on networks of trained professionals and specialists to help us do things that we alone, cannot.
-
-### That's where we come in.
-We put our industry experience, knowledge, and skills to work, helping you get the most out of your tech spend. 
-
-### Power to the People
-We at Volt Populous know that not every business can hire staff to do IT. Our mission is to provide world class tech services on an ad hoc basis.
-
 ## VoltPop Service Offerings
 
 * Domain management services
