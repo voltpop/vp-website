@@ -17,15 +17,6 @@ header:
 <center><i>Power to the People</i></center>
 <br><br>
 
-Welcome to the [semi-professional](https://www.linkedin.com/in/andrewfoulks/) [blog](/blogs/) of [Drew Foulks](/warwalrux/).
+Volt Populous (VoltPop for short) is a tech company that focuses on helping small business succeed by leveraging the same technologies available to large companies with traditional IT staff.
 
-
-**Here be Open Sourcery**
-
-Here you can find the less rambly bits of my thoughts about Open Source technology, life in IT, the Arts and Sciences, and Whatever else I can think of that's worth sharing.
-
-
-**It's not much, but it's a blog**
-
-If you have feedback or want to chat, feel free to [shoot me an email](mailto:dfoulks@voltpop.com), or find me on [discord](https://discord.gg/yXRaC85Q)
-
+Comprised of tech experts from different industries, we've banded together to make a team of people capable of solving the kinds of foundational tech problems that plague all industries.
