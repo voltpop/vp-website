@@ -1,6 +1,7 @@
 ---
 layout: single
-permalink: /offerings/
+permalink: /services/
+title: VoltPop Services
 
 ---
 
