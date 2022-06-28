@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: "/blogs/"
-title: "Headaches with Pictures"
+title: "Fortune favors the bold"
 classes: wide
 
 ---
