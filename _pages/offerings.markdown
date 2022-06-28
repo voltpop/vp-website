@@ -3,7 +3,6 @@ layout: single
 permalink: /offerings/
 
 ---
-## VoltPop Service Offerings
 
 * Domain management services
 * Custom Domain Email services
