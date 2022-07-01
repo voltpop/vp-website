@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: "/blogs/"
-title: "Fortune favors the bold"
+title: "Fortune may favor the bold, but success favors the persistent."
 classes: wide
 
 ---
