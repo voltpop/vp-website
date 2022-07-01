@@ -10,14 +10,9 @@ Thomas Young, also known as the last man to know everything, passed away on May 
 
 Since then, the amount of knowledge has grown such that it is now impossible to know everything. These days, we rely on networks of trained professionals and specialists to help us do things that we alone, cannot.
 
-### That's where we come in.
-Volt Populous specializes in a wide variety of technologies. We put our industry experience, knowledge, and skills to work, helping you get the most out of your tech spend. We at Volt Populous know that not every business can hire staff to do IT. Our mission is to provide world class tech services on an ad hoc basis.
+We at Volt Populous know that not every business can hire in-house IT staffing. Our mission is to provide world class tech services when you need them, so you can get back to doing what you do best.
 
-## People Power
-At VoltPopulous, our mission is people: From the people who create solutions to the people that use them, our goal is to ensure that everybody has what they need to do their thing.
-
-"*I'm in the business of making life easy for people who do phenomenal stuff.*"<br>
-&nbsp; &nbsp; &nbsp; &nbsp; - Drew Foulks
+From the people who create solutions to the people that use them, our goal is to ensure that everybody has what they need to do their thing.
 
 ## Our Team
 
@@ -27,7 +22,7 @@ An Infrastructure Administrator by trade and Open Sourceror by profession, Drew 
 
 From managing a datacenter in NASA's Katherine Johnson Computational Research Facility to working Infrastructure for the Apache Software Foundation, Drew is no stranger to large, diverse environments with rigorous standards.
 
-##### Specialties
+#### Specialties
   * Free and Open Source Software
   * Automation
   * Monitoring

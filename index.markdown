@@ -17,6 +17,6 @@ header:
 <center><i>Power to the People</i></center>
 <br><br>
 
-Volt Populous (VoltPop for short) is a tech company that focuses on helping small business succeed by leveraging the same technologies available to large companies with traditional IT staff.
+Volt Populous (VoltPop for short) is a tech company that focuses on helping small business succeed by leveraging technologies available to larger companies with traditional IT staff.
 
-Comprised of tech experts from different industries, we've banded together to make a team of people capable of solving the kinds of foundational tech problems that plague all industries.
+Comprised of tech experts with decades of combined experience, out team will work with you to ensure you're maximizing your tech budget.
