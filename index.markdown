@@ -19,4 +19,4 @@ header:
 
 Volt Populous (VoltPop for short) is a tech company that focuses on helping small business succeed by leveraging technologies available to larger companies with traditional IT staff.
 
-Comprised of tech experts with decades of combined experience, out team will work with you to ensure you're maximizing your tech budget.
+Comprised of tech experts with decades of combined experience, our team will work with you to ensure you're maximizing your tech budget.
