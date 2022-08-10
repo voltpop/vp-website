@@ -23,9 +23,9 @@ Our billing model is time based. We offer a no-commitment hourly rate, as well a
 
 | Service | Price |
 |---------|-------|
-| Hosting | cost |
-| Hourly Consulting | $150 |
-| Monthly Contract | starting at $350.00 |
+| Hosting | TBD |
+| Hourly Consulting | TBD |
+| Monthly Contract | TBD |
 
 ## We appreciate our customers
 
