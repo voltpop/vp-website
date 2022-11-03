@@ -17,4 +17,4 @@ header:
 <center><i>Power to the People</i></center>
 <br><br>
 
-VoltPopulous is the Blog of Open Sourceror, Drew Foulks.
+VoltPopulous is the blog of Open Sourceror, Drew Foulks. Drew is a professional enabler, amateur guitar player, and tinkering fool.
