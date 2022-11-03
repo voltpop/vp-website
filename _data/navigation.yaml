@@ -1,8 +1,6 @@
 main:
   - title: "About"
-    url: /about-us/
-  - title: "Services"
-    url: /services/
+    url: /warwalrux/
   - title: "Blog"
     url: /blogs/
   - title: "Contact us"
