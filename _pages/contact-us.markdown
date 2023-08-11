@@ -8,4 +8,3 @@ layout: single
 Phone:	<a href="tel:6156979247">615/697-9247</a><br>
 Email:	<a href="mailto:dfoulks@voltpop.com">dfoulks@voltpop.com</a>
 
-[Services](/services/) and [Rates](/rates/)
